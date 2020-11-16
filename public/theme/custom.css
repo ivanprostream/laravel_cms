@@ -1,0 +1,55 @@
+/** login page **/
+
+.bg-grey {
+	background-color: #d2d6de;
+}
+
+.height100vh {
+	height: 100vh;
+}
+
+.mt-20 {
+	margin-top: 20%;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background: #17a2b8;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color :#fff;
+}
+
+.select2-selection.select2-selection--single {
+	height: 37px;
+}
+
+.dataTables_filter {
+	float:right;
+	width: 100%;
+}
+
+.dataTables_filter label {
+	display: block;
+}
+
+li.nav-item.active a {
+	color:#007bff;
+}
+
+.table td, .table th {
+	vertical-align: middle !important;
+}
+

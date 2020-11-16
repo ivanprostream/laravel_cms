@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Setting extends Model
+{
+    use HasFactory;
+
+    public $timestamps = true;
+    protected $table = "setting";
+
+    protected $fillable = ["name", "value", "type"];
+
+    /**
+     * get setting type
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function settingType()
+    {
+        return $this->belongsTo(SettingType::class, 'type');
+    }
+}
